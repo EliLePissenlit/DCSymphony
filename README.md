@@ -28,6 +28,9 @@ php bin/console doctrine:migrations:migrate
 ## Explication choix techniques:
 
 Base de données : PostgreSQL a été choisi pour sa fiabilité et ses fonctionnalités avancées
+
 Gestion d'erreur : les erreurs (ex : 404 Task not found, 400 Invalid data ) sont renvoyées sous forme de éponses JSONstandardisées 
+
 Resqête : test des resquêtes avec l'extension thunder client, simplifie le processus de débogage et de validation des fonctionnalités de l'API directement sur visual studio code.
+
 validation donnée : Symfony Validator est utilisé pour garantir que les données fournies par les utilisateurs respectent les exigences.
