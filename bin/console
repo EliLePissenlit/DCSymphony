@@ -19,3 +19,6 @@ return function (array $context) {
 
     return new Application($kernel);
 };
+
+//php bin/console make:migration
+//php bin/console doctrine:migrations:migrate
