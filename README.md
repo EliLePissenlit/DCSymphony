@@ -14,7 +14,9 @@ PostgreSQL : Base de données utilisée
 
 Puis :
 1)Clonez le dépôt 
+
 2)Installez les dépendances 
+
 3)Configurez la connexion  à la base de données dans le fichier .env 
 DATABASE_URL="postgresql://[utilisateur]:[motdepasse]@127.0.0.1:5432/[nom_base]"
 
